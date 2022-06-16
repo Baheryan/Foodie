@@ -1,0 +1,35 @@
+@media (min-width: 740px) {
+    .header__container {
+        display: grid;
+        grid-template-areas: "header-logo header-nav";
+        /* grid-template-columns: 1fr 3fr; */
+        grid-template-rows: 124px;
+    }
+
+    .header__logo__container {
+        margin-left: 0;
+        justify-self: center;
+    }
+
+    .header__nav__container {
+        flex-direction: row;
+        transform: translateY(0);
+        opacity: 1;
+        justify-self: center;
+        position: static;
+        top: 0;
+    }
+
+    .header__link {
+        padding-top: 12px;
+        margin-right: 39px;
+    }
+
+    .header__link:nth-child(5) {
+        margin-right: 0;
+    }
+
+    .header__button {
+        display: none;
+    }
+}

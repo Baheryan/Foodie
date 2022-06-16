@@ -1,0 +1,12 @@
+@media (min-width: 1440px) {
+
+    .header__logo__container {
+        justify-self: start;
+        padding-left: 135px;
+    }
+
+    .header__nav__container {
+        padding-right: 128px;
+        justify-self: end;
+    }
+}
