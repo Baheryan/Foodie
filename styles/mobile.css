@@ -144,7 +144,11 @@ body {
 }
 
 .banner__container {
-    display: grid;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 28px;
 }
 
 .banner__text__container {
@@ -152,22 +156,56 @@ body {
 }
 
 .banner__heading {
+    margin: 0;
     font-size: 51px;
     font-weight: 600;
+    line-height: 61px;
 }
 
 .banner__paragraph {
+    margin-bottom: 0;
+    margin-top: 25px;
     font-size: 14px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 22px;
 }
 
 .banner__button {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #06C167;
     color: #ffffff;
     width: 320px;
     height: 68px;
     border-style: none;
+    justify-self: center;
+}
+
+.button__arrow {
+    margin-left: 32px;
+}
+
+.banner__rating__container {
+    display: grid;
+    grid-template-areas:
+        " . . ."
+        " . rating ."
+        " . response .";
+    grid-template-rows: 354px 63px;
+    grid-template-columns: 38px 136px;
+    margin-top: 47px;
+    background-image: url(../static/womanHandlingCabage.png);
+    height: 470px;
+    width: 342px;
+    background-size: cover;
+}
+
+.banner__dots {
+    align-self: end;
+    grid-row: 1 / 4;
+    grid-column: 3 / 3;
 }
 
 .banner__rating {
@@ -178,6 +216,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    grid-area: rating;
 }
 
 .banner__rating__text {
@@ -191,12 +230,12 @@ body {
 }
 
 .rating__icon {
-    width: 15.23px;
-    height :14.58px;
+    width: 15px;
+    height: 15px;
 }
 
 .banner__response {
-    grid-area: banner-response;
+    grid-area: response;
     display: flex;
     width: 220px;
     height: 53px;
