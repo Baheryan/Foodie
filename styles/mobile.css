@@ -194,11 +194,11 @@ body {
         " . rating ."
         " . response .";
     grid-template-rows: 354px 63px;
-    grid-template-columns: 38px 136px;
+    grid-template-columns: 1fr 104px;
     margin-top: 47px;
     background-image: url(../static/womanHandlingCabage.png);
     height: 470px;
-    width: 342px;
+    width: 90vw;
     background-size: cover;
 }
 
