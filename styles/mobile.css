@@ -30,7 +30,6 @@ body {
     position: relative;
     top: -250px;
     align-items: center;
-    grid-area: header-nav;
     display: flex;
     flex-direction: column;
     transform: translateY(-250px);
