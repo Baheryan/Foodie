@@ -27,6 +27,7 @@ body {
 }
 
 .header__nav__container {
+    justify-self: start;
     position: relative;
     top: -250px;
     align-items: center;
@@ -137,6 +138,7 @@ body {
 }
 
 .header__nav__container.active {
+    justify-self: start;
     transform: translateY(250px);
     transition: transform ease-in-out 0.5s;
     grid-area: header-nav;
