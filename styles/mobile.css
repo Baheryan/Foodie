@@ -203,12 +203,14 @@ body {
 }
 
 .banner__dots {
+    justify-self: end;
     align-self: end;
     grid-row: 1 / 4;
     grid-column: 3 / 3;
 }
 
 .banner__rating {
+    justify-self: start;
     width: 220px;
     height: 53px;
     background: #ffffff;
@@ -235,6 +237,7 @@ body {
 }
 
 .banner__response {
+    justify-self: start;
     grid-area: response;
     display: flex;
     width: 220px;
