@@ -23,6 +23,7 @@
         grid-template-rows: 1fr 1fr;
         padding-left: 133px;
         padding-right: 87px;
+        margin-top: 67px;
     }
 
     .banner__heading {
