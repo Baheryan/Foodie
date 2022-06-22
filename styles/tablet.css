@@ -35,5 +35,6 @@
     .banner__rating__container {
         height: 690px;
         width: 520px;
+        align-self: center;
     }
 }
