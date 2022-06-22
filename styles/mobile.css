@@ -201,6 +201,8 @@ body {
     height: 470px;
     width: 90vw;
     background-size: cover;
+    border-radius: 10px;
+    align-self: start;
 }
 
 .banner__dots {
