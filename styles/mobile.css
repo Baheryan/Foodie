@@ -199,7 +199,7 @@ body {
     margin-top: 47px;
     background-image: url(../static/womanHandlingCabage.png);
     height: 470px;
-    width: 90vw;
+    width: 100%;
     background-size: cover;
     border-radius: 10px;
     align-self: start;
