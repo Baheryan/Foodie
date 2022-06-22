@@ -38,6 +38,7 @@
         grid-area: banner-background;
         min-width: 500px;
         width: 100%;
+        align-self: start;
     }
 
     .banner__text__container {
