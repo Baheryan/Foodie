@@ -5,7 +5,6 @@
     }
 
     .header__nav__container {
-        padding-right: 128px;
         justify-self: end;
     }
 }
