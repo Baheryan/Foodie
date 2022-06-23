@@ -17,7 +17,8 @@
         display: grid;
         grid-template-areas:
         "banner-text banner-background"
-        "banner-button banner-background";
+        "banner-button banner-background"
+        "banner-logo banner-background";
         column-gap: 105px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
