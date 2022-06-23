@@ -39,4 +39,17 @@
         width: 520px;
         align-self: center;
     }
+
+    .banner__rating {
+        grid-column: 1;
+        grid-row: 2;
+        align-self: end;
+        justify-self: end;
+    }
+
+    .banner__response {
+        grid-column: 3;
+        grid-row: 1;
+        align-self: end;
+    }
 }
