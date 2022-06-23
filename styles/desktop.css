@@ -58,4 +58,10 @@
     .banner__rating__container {
         margin-top: 0;
     }
+
+    .banner__logo__container {
+        grid-area: banner-logo;
+        margin-top: 0;
+        justify-content: space-between;
+    }
 }
