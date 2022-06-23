@@ -255,3 +255,11 @@ body {
 .response__text {
     font-size: 15px;
 }
+
+.banner__logo__container {
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100px;
+}
