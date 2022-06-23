@@ -21,7 +21,7 @@
         "banner-logo banner-background";
         column-gap: 105px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 241px 164px;
         padding-left: 133px;
         padding-right: 87px;
         margin-top: 67px;
