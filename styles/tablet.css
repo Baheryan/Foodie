@@ -34,6 +34,7 @@
 
     .banner__rating__container {
         grid-template-rows: 295px 116px;
+        grid-template-columns: 144px 1fr 186px;
         height: 690px;
         width: 520px;
         align-self: center;
