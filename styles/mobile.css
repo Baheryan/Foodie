@@ -182,6 +182,7 @@ body {
     height: 68px;
     border-style: none;
     justify-self: center;
+    cursor: pointer;
 }
 
 .button__arrow {
