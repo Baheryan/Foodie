@@ -262,4 +262,6 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     height: 100px;
+    width: 100%;
+    height: 130px;
 }
