@@ -299,6 +299,7 @@ body {
 }
 
 .offer__advantage__text {
+    margin-top: 10px;
     color:#1D1D1F;
     font-size: 14px;
     font-weight: 500;
