@@ -288,6 +288,11 @@ body {
     margin-right: 25px;
 }
 
+.offer__text__container {
+    display: flex;
+    flex-direction: column;
+}
+
 .offer__name__text {
     color:#1D1D1F;
     font-size: 18px;
