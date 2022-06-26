@@ -5,6 +5,10 @@
         padding-top: 40px;
     }
 
+    .header__background {
+        height: 1300px;
+    }
+
     .header__nav__container {
         margin-right: 130px;
     }
