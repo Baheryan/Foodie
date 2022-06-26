@@ -70,6 +70,7 @@
     }
 
     .service__container {
+        margin: 100px 130px 0;
         justify-content: space-between;
     }
 }
