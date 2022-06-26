@@ -68,4 +68,8 @@
         margin-top: 0;
         justify-content: space-between;
     }
+
+    .service__container {
+        justify-content: space-between;
+    }
 }
