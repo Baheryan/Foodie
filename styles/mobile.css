@@ -304,3 +304,77 @@ body {
     font-weight: 500;
     opacity: 0.75;
 }
+
+.profit__container {
+    display: grid;
+    margin-top: 107px;
+    row-gap: 56px;
+}
+
+.profit__img__container {
+    display: grid;
+    grid-template-rows: 28px;
+    grid-template-columns: 320px;
+    justify-content: center;
+}
+
+.profit__img__background {
+    width: 320px;
+    height: 415px;
+    background-color: #F0F1EC;
+    z-index: -1;
+}
+
+.profit__list__container {
+    display: grid;
+    grid-template-areas: "profit-dots profit-subheading" "profit-dots profit-heading" "profit-dots profit-list";
+    grid-template-columns: 30px minmax(min-content, 1fr);
+    grid-template-rows: auto minmax(min-content, 115px) minmax(min-content, 215px);
+    justify-items: center;
+}
+
+.profit__img {
+    justify-self: center;
+}
+
+.profit__dots {
+    grid-area: profit-dots;
+    justify-self: start;
+}
+
+.profit__heading {
+    align-self: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    color: #1D1D1F;
+    grid-area: profit-heading;
+    margin: 0;
+}
+
+.profit__subheading {
+    align-self: center;
+    font-size: 15px;
+    color: #1D1D1F;
+    font-weight: 500;
+    grid-area: profit-subheading;
+}
+
+.profit__list {
+    align-self: end;
+    padding: 0;
+    margin: 0;
+    grid-area: profit-list;
+}
+
+.profit__list li {
+    color: #1D1D1F;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.list__img {
+    margin-right: 21px;
+}
