@@ -314,7 +314,7 @@ body {
 .profit__img__container {
     display: grid;
     grid-template-rows: 28px;
-    grid-template-columns: 320px;
+    grid-template-columns: 1fr;
     justify-content: center;
 }
 
