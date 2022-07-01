@@ -336,6 +336,8 @@ body {
 }
 
 .profit__img {
+    object-fit: cover;
+    height: 415px;
     width: 88%;
     justify-self: center;
 }
