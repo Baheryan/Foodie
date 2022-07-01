@@ -316,6 +316,8 @@ body {
     grid-template-rows: 28px;
     grid-template-columns: 1fr;
     justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .profit__img__background {
