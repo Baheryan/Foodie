@@ -53,4 +53,30 @@
         align-self: end;
         justify-self: center;
     }
+
+    .profit__container {
+        grid-template-areas: "profit-img-container profit-list-container";
+        grid-template-columns: repeat(2, minmax(min-content, 1fr));
+        column-gap: 30px;
+        margin: 130px 30px 0;
+    }
+
+    .profit__img__container {
+        grid-area: profit-img-container;
+        padding: 0;
+    }
+
+    .profit__list__container {
+        grid-template-areas: ". profit-subheading"
+        "profit-dots profit-heading"
+        ". profit-list";;
+        grid-area: profit-list-container;
+        justify-items: start;
+    }
+
+    .profit__heading {
+        text-align: start;
+        align-self: start;
+        font-size: 60px;
+    }
 }
