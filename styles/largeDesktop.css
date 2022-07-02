@@ -7,4 +7,8 @@
     .header__nav__container {
         justify-self: end;
     }
+
+    .profit__container {
+        column-gap: 0;
+    }
 }
