@@ -73,4 +73,33 @@
         margin: 100px 130px 0;
         justify-content: space-between;
     }
+
+    .profit__img__container {
+        grid-template-rows: 0;
+        padding: 0;
+        justify-items: center;
+    }
+
+    .profit__img {
+        height: 543px;
+        width: 445px;
+    }
+
+    .profit__img__background {
+        width: 541px;
+        height: 608px;
+    }
+
+    .profit__list__container {
+        align-self: start;
+        grid-template-rows: 107px minmax(min-content, 186px) minmax(min-content, 227px);
+    }
+
+    .profit__subheading {
+        align-self: end;
+    }
+    
+    .profit__heading {
+        align-self: center;
+    }
 }
