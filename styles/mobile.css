@@ -472,6 +472,10 @@ body {
     opacity: 0.65;
 }
 
+.achivement__button__container {
+    margin-top: 67px;
+}
+
 .achivement__button {
     display: flex;
     align-items: center;
