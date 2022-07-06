@@ -442,7 +442,7 @@ body {
 
 .achivement__statistic__container {
     display: grid;
-    row-gap: 40px;
+    row-gap: 38px;
     column-gap: 26px;
     justify-items: center;
     justify-content: center;
