@@ -422,6 +422,7 @@ body {
     grid-template-columns: minmax(15px, 1fr);
     grid-template-rows: 35px 102px;
     margin-top: 35px;
+    grid-template-columns: 15px minmax(min-content, 1fr);
 }
 
 .achivement__heading {
