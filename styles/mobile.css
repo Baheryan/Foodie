@@ -474,6 +474,8 @@ body {
 
 .achivement__button__container {
     margin-top: 67px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .achivement__button {
