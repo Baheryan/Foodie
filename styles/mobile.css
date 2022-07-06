@@ -421,6 +421,7 @@ body {
     grid-template-areas: "achivement-dots achivement-subheading" "achivement-dots achivement-heading";
     grid-template-columns: minmax(15px, 1fr);
     grid-template-rows: 35px 102px;
+    margin-top: 35px;
 }
 
 .achivement__heading {
