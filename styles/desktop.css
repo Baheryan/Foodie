@@ -102,4 +102,37 @@
     .profit__heading {
         align-self: center;
     }
+
+    .achivement__container {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 170px;
+    }
+
+    .achivement__img__container {
+        padding-left: 0;
+        padding-right: 0;
+        grid-template-rows: 0;
+        justify-items: end;
+    }
+
+    .achivement__img {
+        max-width: 445px;
+        height: 513px;
+    }
+
+    .achivement__img__background {
+        max-width: 541px;
+        height: 608px;
+    }
+
+    .achivement__text__container {
+        margin-top: 0;
+        grid-template-rows: 40px max-content;
+        grid-template-columns: 55px;
+    }
+
+    .achivement__dots {
+        grid-row: 2;
+    }   
 }
