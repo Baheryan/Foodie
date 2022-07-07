@@ -74,9 +74,35 @@
         justify-items: start;
     }
 
-    .profit__heading {
+    .heading {
         text-align: start;
         align-self: start;
         font-size: 60px;
+    }
+
+    .subheading {
+        text-align: start;
+    }
+
+    .achivement__container {
+        grid-template-areas: "achivement-text achivement-img" "achivement-statistic achivement-img" "achivement-button achivement-img";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .achivement__img__container {
+        grid-area: achivement-img;
+    }
+
+    .achivement__text__container {
+        grid-template-rows: auto;
+        grid-area: achivement-text;
+    }
+
+    .achivement__statistic__container {
+        grid-area: achivement-statistic;
+    }
+
+    .achivement__button__container {
+        grid-area: achivement-button;   
     }
 }
