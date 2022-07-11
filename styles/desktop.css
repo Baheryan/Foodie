@@ -144,4 +144,8 @@
     .achivement__dots {
         grid-row: 2;
     }
+
+    .achivement__button {
+        max-width: 233px;
+    }
 }
