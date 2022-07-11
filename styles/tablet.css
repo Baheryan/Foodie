@@ -103,6 +103,7 @@
     }
 
     .achivement__button__container {
-        grid-area: achivement-button;   
+        grid-area: achivement-button;
+        margin-top: 54px;   
     }
 }
