@@ -179,7 +179,7 @@ body {
 
 .banner__button:hover {
     transform: rotateY(360deg);
-    transition: transform ease-in-out 1s;
+    transition: transform ease-out 1s;
 }
 
 .green__button {
