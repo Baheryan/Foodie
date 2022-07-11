@@ -492,6 +492,11 @@ body {
     height: 80px;
 }
 
+.achivement__button:hover {
+    transform: translateY(-15px);
+    transition: ease-in-out 0.7s;
+}
+
 .achivement__arrow {
     margin-left: 14px;
 }
