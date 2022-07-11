@@ -489,3 +489,7 @@ body {
     border: none;
     justify-self: center;
 }
+
+.button__arrow {
+    margin-left: 14px;
+}
