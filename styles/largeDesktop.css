@@ -11,4 +11,8 @@
     .profit__container {
         column-gap: 0;
     }
+
+    .achivement__container {
+        margin-top: 208px;
+    }
 }
