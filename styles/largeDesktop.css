@@ -18,4 +18,8 @@
         padding-left: 80px;
         grid-template-rows: 295px 156px;
     }
+
+    .achivement__text__container {
+        align-self: flex-end;
+    }
 }
