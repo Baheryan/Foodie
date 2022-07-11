@@ -132,7 +132,7 @@
         grid-template-columns: 55px;
     }
 
-    .achivement__dots {
-        grid-row: 2;
-    }   
+    .achivement__statistic__container {
+        margin-top: 25px; 
+    }
 }
