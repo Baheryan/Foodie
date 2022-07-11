@@ -22,4 +22,8 @@
     .achivement__text__container {
         align-self: flex-end;
     }
+
+    .achivement__button__container {
+        margin-top: 0;
+    }
 }
