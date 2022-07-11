@@ -173,16 +173,19 @@ body {
 
 .banner__button {
     margin-top: 55px;
+    width: 100%;
+    height: 68px;
+}
+
+.green__button {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #06C167;
     color: #ffffff;
-    width: 100%;
-    height: 68px;
+    cursor: pointer;
     border-style: none;
     justify-self: center;
-    cursor: pointer;
 }
 
 .button__arrow {
@@ -479,15 +482,8 @@ body {
 }
 
 .achivement__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 100%;
     height: 80px;
-    background-color: #06C167;
-    color: #ffffff;
-    border: none;
-    justify-self: center;
 }
 
 .button__arrow {
