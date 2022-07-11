@@ -16,5 +16,6 @@
         margin-top: 208px;
         padding-right: 135px;
         padding-left: 80px;
+        grid-template-rows: 295px 156px;
     }
 }
