@@ -446,7 +446,7 @@ body {
     column-gap: 26px;
     justify-items: center;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, 218px);
+    grid-template-columns: repeat(auto-fill, 170px);
     margin-top: 35px;
 }
 
