@@ -135,4 +135,8 @@
     .achivement__statistic__container {
         margin-top: 25px; 
     }
+
+    .achivement__button__container {
+        padding-right: 0;
+    }
 }
