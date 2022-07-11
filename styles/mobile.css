@@ -504,4 +504,5 @@ body {
 
 .achivement__arrow {
     margin-left: 14px;
+    transition: margin-left ease-out 0.7s;
 }
