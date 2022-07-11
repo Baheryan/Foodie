@@ -140,4 +140,8 @@
         padding-right: 0;
         padding-left: 56px;
     }
+
+    .achivement__dots {
+        grid-row: 2;
+    }
 }
