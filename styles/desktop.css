@@ -148,4 +148,12 @@
     .achivement__button {
         max-width: 233px;
     }
+
+    .variety__feature:nth-child(2) {
+        flex-direction: unset;
+    }
+
+    .variety__feature:nth-child(3) {
+        flex-direction: row-reverse;
+    }
 }
