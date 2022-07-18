@@ -573,6 +573,7 @@ body {
     padding-left: 15px;
     padding-right: 12px;
     width: 100%;
+    transition: box-shadow ease-out 0.4s;
 }
 
 .feature__button:hover {
