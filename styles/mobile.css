@@ -574,3 +574,9 @@ body {
     padding-right: 12px;
     width: 100%;
 }
+
+.feature__button:hover {
+    box-shadow: inset 150px 0 0 #06C167;
+    transition: box-shadow ease-out 0.4s;
+    color: #ffffff;
+}
