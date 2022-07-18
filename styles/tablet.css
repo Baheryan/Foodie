@@ -106,4 +106,31 @@
         grid-area: achivement-button;
         margin-top: 54px;   
     }
+
+    .variety__feature__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .variety__feature {
+        width: 585px;
+        flex-direction: row;
+    }
+
+    .feature__text__container {
+        background-color: #F3FCF7;
+    }
+
+    .variety__feature:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    .variety__heading {
+        text-align: center;
+    }
+
+    .feature__button {
+        background-color: #E6F9F0;
+    }
 }
