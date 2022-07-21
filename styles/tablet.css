@@ -133,4 +133,8 @@
     .feature__button {
         background-color: #E6F9F0;
     }
+
+    .trends__heading {
+        text-align: center;
+    }
 }
