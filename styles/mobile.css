@@ -581,3 +581,120 @@ body {
     transition: box-shadow ease-out 0.4s;
     color: #ffffff;
 }
+
+.trends__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 91px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.trends__text__container, .trends__heading {
+    text-align: center;
+}
+
+.trends__heading {
+    margin-top: 15px;
+}
+
+.trends__product__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    gap: 36px;
+    justify-content: center;
+}
+
+.trends__product {
+    width: 100%;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(118, 118, 117, 0.25);
+    padding-top: 22px;
+    padding-bottom: 30px;
+    cursor: pointer;
+    transition: border-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.trends__product:hover {
+    border-color: #06C167;
+    transition: border-color 0.5s ease-in-out, transform 0.7s ease-in-out;
+    transform: scale(1.1);
+}
+
+.product__rating__container {
+    margin-top: 5px;
+}
+
+.product__text {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.product__price__container {
+    margin-top: 26px;
+    width: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.previous__price {
+    font-size: 20px;
+    font-weight: 600;
+    color: #767675;
+    opacity: 0.35;
+}
+
+.previous__price::before {
+    content: "";
+    width: 38px;
+    height: 1.5px;
+    background-color: #767675;
+    position: absolute;
+    transform: translateY(12px);
+}
+
+.actual__price {
+    font-size: 20px;
+    font-weight: 400;
+    color: #06C167;
+}
+
+.product__button__container {
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.product__arrow {
+    font-size: 24px;
+}
+
+.product__button {
+    width: 177px;
+    height: 57px;
+    color: #06C167;
+    border: 3px solid #06C167;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 26px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-out;
+}
+
+.product__button:hover {
+    box-shadow: inset 177px 0 0 #06C167;
+    color: #ffffff;
+    border: none;
+    transition: box-shadow 0.4s ease-out;
+}
+
+.product__button__container {
+    text-decoration: none;
+}
