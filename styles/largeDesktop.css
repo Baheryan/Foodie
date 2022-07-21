@@ -34,4 +34,15 @@
     .variety__feature__container {
         margin-top: 80px;
     }
+
+    .trends__container {
+        width: 1170px;
+        margin: 190px auto 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .trends__text__container, .trends__heading {
+        text-align: unset;
+    }
 }
