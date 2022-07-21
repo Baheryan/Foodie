@@ -156,4 +156,18 @@
     .variety__feature:nth-child(3) {
         flex-direction: row-reverse;
     }
+
+    .trends__heading {
+        margin-top: 22px;
+    }
+
+    .trends__product__container {
+        margin-top: 65px;
+        gap: 30px;
+    }
+
+    .trends__product {
+        width: 266px;
+    }
+
 }
