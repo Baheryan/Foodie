@@ -1,8 +1,6 @@
 @media (min-width: 1024px) {
     .header__container {
-        display: flex;
         justify-content: space-between;
-        padding-top: 40px;
     }
 
     .header__background {
