@@ -735,6 +735,10 @@ body {
     animation-direction: alternate;
 }
 
+.ingredients__button:hover {
+    animation-play-state: paused;
+}
+
 @keyframes flying-button {
     from {
         transform: translateY(0);
