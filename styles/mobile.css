@@ -698,3 +698,39 @@ body {
 .product__button__container {
     text-decoration: none;
 }
+
+.ingredients__container {
+    margin-top: 66px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../static/traysOfFood.svg) no-repeat;
+    background-size: cover;
+    padding: 105px 10px 100px;
+}
+
+.ingredients__heading {
+    font-size: 35px;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0;
+}
+
+.ingredients__button__container {
+    margin-top: 54px;
+    width: 100%;
+    max-width: 293px;
+    text-decoration: none;
+}
+
+.ingredients__button {
+    width: 100%;
+    height: 80px;
+}
+
+.ingredients__arrow {
+    margin-left: 29px;
+    font-size: 24px;
+}
