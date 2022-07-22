@@ -82,30 +82,30 @@ body {
     width: 22px;
     height: 2.2px;
     background: #06C167;
-    position: absolute;
-    top: 43px;
-    right: 41px;
+    position: relative;
+    top: 0;
+    right: 0;
 }
 
 .header__button::before {
     content: "";
-    position: absolute;
+    position: relative;
     background: #06C167;
     width: 22px;
-    right: 41px;
+    right: 0;
     height: 2px;
-    top: 36px;
+    top: 9px;
     transition: transform ease-in-out 0.4s;
 }
 
 .header__button::after {
     content: "";
-    position: absolute;
+    position: relative;
     background: #06C167;
     width: 22px;
-    right: 41px;
-    height: 3px;
-    top: 50px;
+    right: 0;
+    bottom: 9px;
+    height: 2.4px;
     transition: transform ease-in-out 0.4s;
 }
 
@@ -118,7 +118,7 @@ body {
     position: absolute;
     background: #06C167;
     width: 22px;
-    right: 41px;
+    right: 43px;
     height: 2px;
     top: 43px;
     transform: rotate(40deg);
@@ -130,7 +130,7 @@ body {
     position: absolute;
     background: #06C167;
     width: 22px;
-    right: 41px;
+    right: 43px;
     height: 2px;
     top: 43px;
     transform: rotate(-40deg);
