@@ -728,6 +728,11 @@ body {
 .ingredients__button {
     width: 100%;
     height: 80px;
+    animation-name: flying-button;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes flying-button {
