@@ -170,4 +170,13 @@
         width: 266px;
     }
 
+    .ingredients__heading {
+        font-size: 60px;
+        line-height: 72px;
+    }
+
+    .ingredients__button__container {
+        max-width: 210px;
+    }
+
 }
