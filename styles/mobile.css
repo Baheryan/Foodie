@@ -119,24 +119,22 @@ body {
 
 .header__button.active::before {
     content: "";
-    position: absolute;
+    position: relative;
     background: #06C167;
     width: 22px;
-    right: 43px;
     height: 2px;
-    top: 43px;
+    top: 2px;
     transform: rotate(40deg);
     transition: transform ease-in-out 0.4s;
 }
 
 .header__button.active::after {
     content: "";
-    position: absolute;
+    position: relative;
     background: #06C167;
     width: 22px;
-    right: 43px;
     height: 2px;
-    top: 43px;
+    top: -1px;
     transform: rotate(-40deg);
     transition: r ease-in-out 0.4s;
 }
