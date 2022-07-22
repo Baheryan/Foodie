@@ -45,4 +45,10 @@
     .trends__text__container, .trends__heading {
         text-align: unset;
     }
+
+    .ingredients__container {
+        margin-top: 192px;
+        margin-left: 135px;
+        margin-right: 135px;
+    }
 }
