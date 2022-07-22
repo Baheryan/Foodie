@@ -79,7 +79,7 @@ body {
     grid-area: header-button;
     justify-self: end;
     cursor: pointer;
-    
+    justify-self: center;
 }
 
 .button__line {
