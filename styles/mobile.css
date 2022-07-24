@@ -777,7 +777,7 @@ body {
 
 .footer__logo__container {
     display: grid;
-    row-gap: 48px;
+    row-gap: 39px;
     text-align: center;
     justify-items: center;
 }
