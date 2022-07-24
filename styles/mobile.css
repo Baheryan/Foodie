@@ -859,6 +859,8 @@ body {
 .footer__form__container {
     display: grid;
     text-align: center;
+    grid-template-rows: repeat(3, max-content);
+    row-gap: 40px;
 }
 
 .form__paragraph {
