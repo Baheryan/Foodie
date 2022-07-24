@@ -746,6 +746,11 @@ body {
     animation-play-state: paused;
 }
 
+.ingredients__button:hover .ingredients__arrow {
+    margin-left: 15px;
+    transition: margin-left 0.5s ease-out;
+}
+
 @keyframes flying-button {
     from {
         transform: translateY(0);
@@ -759,7 +764,7 @@ body {
 .ingredients__arrow {
     margin-left: 29px;
     font-size: 24px;
-    transition: all 0.5s ease-in-out;
+    transition: margin-left 0.5s ease-out;
 }
 
 .footer__container {
