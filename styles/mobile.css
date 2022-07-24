@@ -778,6 +778,7 @@ body {
 .footer__logo__container {
     display: grid;
     row-gap: 39px;
+    grid-template-rows: repeat(3, max-content);
     text-align: center;
     justify-items: center;
 }
