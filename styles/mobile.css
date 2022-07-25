@@ -802,6 +802,10 @@ body {
     justify-content: space-between;
 }
 
+.footer__icon__wrapper {
+    color: #000000;
+}
+
 .footer__icon {
     font-size: 20px;
     cursor: pointer;
