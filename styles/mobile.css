@@ -869,6 +869,12 @@ body {
     color: #1D1D1F;
 }
 
+.form__input__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .form__input {
     text-align: center;
     padding: 0;
