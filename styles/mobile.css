@@ -878,6 +878,7 @@ body {
     border: none;
     font-size: 14px;
     outline: none;
+    max-width: 500px;
 }
 
 .form__button {
@@ -890,4 +891,5 @@ body {
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
+    max-width: 500px;
 }
