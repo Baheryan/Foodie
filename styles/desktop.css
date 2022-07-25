@@ -220,6 +220,10 @@
         text-align: start;
     }
 
+    .form__input::placeholder {
+        padding-left: 25px;
+    }
+
     .form__button {
         width: 118px;
         margin-top: 0;
