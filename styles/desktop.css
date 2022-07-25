@@ -217,6 +217,7 @@
 
     .form__input {
         width: 205px;
+        text-align: start;
     }
 
     .form__button {
