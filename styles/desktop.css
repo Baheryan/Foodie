@@ -177,4 +177,50 @@
         max-width: 210px;
     }
 
+    .footer__container {
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 88px;
+        margin-bottom: 90px;
+    }
+
+    .footer__logo__container {
+        text-align: start;
+        justify-items: start;
+    }
+
+    .footer__logo__text {
+        max-width: 280px;
+    }
+
+    .footer__nav__container {
+        grid-template-columns: repeat(auto-fit, 150px);
+        justify-content: space-evenly;
+    }
+
+    .footer__menu {
+        align-items: start;
+    }
+
+    .footer__form__container {
+        text-align: start;
+    }
+
+    .form__paragraph {
+        max-width: 340px;
+    }
+
+    .form__input__container {
+        flex-direction: row;
+        width: 340px;
+        justify-content: space-between;
+    }
+
+    .form__input {
+        width: 205px;
+    }
+
+    .form__button {
+        width: 118px;
+        margin-top: 0;
+    }
 }
