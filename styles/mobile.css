@@ -502,8 +502,8 @@ body {
 }
 
 .achivement__button:hover {
-    transform: translateY(-15px);
-    transition: ease-in-out 0.7s;
+    transform: scale(1.2);
+    transition: transform ease-in-out 0.7s;
 }
 
 .achivement__button:hover .achivement__arrow {
