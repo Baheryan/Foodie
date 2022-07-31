@@ -419,6 +419,12 @@ body {
     justify-items: center;
 }
 
+.achivement__img__container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .achivement__img {
     width: 88%;
     height: 490px;
