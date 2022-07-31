@@ -232,4 +232,8 @@
         width: 118px;
         margin-top: 0;
     }
+
+    .footer__copyright {
+        grid-column: 2;
+    }
 }
