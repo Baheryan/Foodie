@@ -184,11 +184,6 @@ body {
     transition: transform 0.6s ease-in-out;
 }
 
-.banner__button:hover .banner__arrow {
-    margin-left: 15px;
-    transition: margin-left 0.6s ease-in-out;
-}
-
 .green__button {
     display: flex;
     justify-content: center;
