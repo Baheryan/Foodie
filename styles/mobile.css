@@ -411,7 +411,7 @@ body {
     display: grid;
 }
 
-.achivement__img__container {
+.achivement__media__container {
     display: grid;
     grid-template-rows: 60px;
     padding-left: 16px;
