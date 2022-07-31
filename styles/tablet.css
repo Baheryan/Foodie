@@ -89,7 +89,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .achivement__img__container {
+    .achivement__media__container {
         grid-area: achivement-img;
     }
 
