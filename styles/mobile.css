@@ -260,6 +260,7 @@ body {
     border-radius: 26px;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 0px 4px 13px rgba(0, 0, 0, 0.1);
 }
 
 .response__text {
