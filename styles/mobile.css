@@ -912,3 +912,7 @@ body {
     cursor: pointer;
     max-width: 500px;
 }
+
+.footer__copyright {
+    justify-self: center;
+}
