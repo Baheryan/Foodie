@@ -114,6 +114,10 @@
         justify-items: end;
     }
 
+    .achivement__img__container {
+        justify-content: end;
+    }
+
     .achivement__img {
         max-width: 445px;
         height: 513px;
