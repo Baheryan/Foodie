@@ -26,11 +26,11 @@ const validation = function () {
    if (input.value.match(pattern)) {
     formMessage.classList.add("valid");
     formMessage.classList.remove("invalid");
-    formMessage.innerHTML = "Your Email Adress Is Valid";
+    formMessage.innerHTML = "Your email adress is valid";
    } else {
     formMessage.classList.remove("valid");
     formMessage.classList.add("invalid");
-    formMessage.innerHTML = "Please Enter Valid Email Adress";
+    formMessage.innerHTML = "Please enter valid email adress";
    }
 };
 
@@ -40,7 +40,7 @@ const submitStatus = function() {
     }
 
     if (input.value === '') {
-        formMessage.innerHTML = "Email filed cannot be empty";
+        formMessage.innerHTML = "Email field cannot be empty";
     }
 };
 
