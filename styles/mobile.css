@@ -921,6 +921,10 @@ body {
     color: #00ff00;
 }
 
+.form__message.invalid {
+    color: #ff0000;
+}
+
 .footer__copyright {
     justify-self: center;
 }
