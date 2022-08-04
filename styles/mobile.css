@@ -911,7 +911,7 @@ body {
 }
 
 .form__button:hover {
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background-color: #E6F9F0;
     color: #06C167;
 }
