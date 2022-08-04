@@ -917,6 +917,10 @@ body {
     color: #06C167;
 }
 
+.form__message.valid {
+    color: #00ff00;
+}
+
 .footer__copyright {
     justify-self: center;
 }
