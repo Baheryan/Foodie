@@ -24,6 +24,8 @@ form.addEventListener("submit", element => {
     submitStatus();
 });
 
+form.addEventListener("keydown", element => validation());
+
 const validation = function () {
    if (input.value.match(pattern)) {
     formMessage.classList.add("valid");
